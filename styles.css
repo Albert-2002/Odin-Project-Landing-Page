@@ -74,7 +74,7 @@ header nav {
 }
 
 .hero-text button {
-    margin-top: 18px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: gainsboro;
     border: none;
@@ -87,3 +87,105 @@ header nav {
 .hero-text button:hover {
     background-color: gray;
 }
+
+/* -------------------------------------------- */
+
+.info h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.info .info-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.info .info-card img {
+    height: 250px;
+    width: 250px;
+    border: 5px solid rgb(59, 130, 246);
+    border-radius: 5px;
+}
+
+.info .info-card p {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 5px;
+    text-align: center;
+    width: 250px;
+    color: rgb(32, 41, 56);
+}
+
+/* ---------------------------------------------- */
+
+.info .info-quote {
+    text-align: center;
+    margin-top: 60px;
+    padding: 50px 20px;
+    font-size: 25px;
+    background-color: rgb(230, 231, 235);
+}
+
+.info .info-quote p {
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.info .info-quote .author {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: end;
+}
+
+/* ---------------------------------------------- */
+
+footer .cta {
+    background-color: rgb(59, 130, 246);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 80px 50px;
+}
+
+.cta p {
+    font-size: 1.2rem;
+}
+
+.cta .cta-text {
+    margin-left: 450px;
+}
+
+.cta button {
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 450px;
+}
+
+.cta button:hover {
+    background-color: gray;
+}
+
+
+.footer-text p {
+    text-align: center;
+    background-color: #1a1e29;
+    color: white;
+    height: 60px;
+    padding-top: 60px;
+}
+
+/* ---------------------------------------------- */
